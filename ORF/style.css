@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+  }
+  
+  .blue-box {
+    border: 2px solid blue;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  .nav-bar {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .light-blue-box {
+    border: 2px solid lightblue;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .footer-links {
+    background-color: dodgerblue;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
