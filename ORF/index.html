@@ -1,53 +1,80 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deine Webseite</title>
+  <title>ORF</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="nav-bar">
+  <header>
     <nav>
-      <ul>
-        <li>News</li>
-        <li>Ö3 Top 40</li>
-        <li>Contact</li>
-        <li>Contact</li>
-      </ul>
+      <table>
+        <tr>
+          <td><a href="#news">News</a></td>
+          <td><a href="#o3">Ö3 Top 40</a></td>
+          <td><a href="#Contact">Contact</a></td>
+        </tr>
+      </table>
     </nav>
-  </div>
+  </header>
 
-  <div class="blue-box">
-    <h1>Titel</h1>
-    <p>Ein Text</p>
-    <img src="/ORF/Bilder/1459066_opener_528078_rushdie_attacke_entsetzen_r.jpg" alt="Rushdie">
-  </div>
+  <main>
+    <section></section>
+    <section class="blue">
+      <table>
+        <tr>
+          <td><h1 id="news">NEWS</h1></td>
+          <td><a href="#news"><img src="/ORF/Bilder/target_news-universal.svg" alt="news" id="logo"></a></td>
+        </tr>
+      </table>
 
-  <h2>Zweiter Titel</h2>
-  <h3>Untertitel 1</h3>
-  <p>Text</p>
-  <h3>Untertitel 2</h3>
-  <p>Text</p>
+      <h1>Weltweit Entsetzen nach Angriff auf Rushdie</h1>
+      <p>Der Messerangriff auf den Schriftsteller Salman Rushdie hat weltweit Entsetzen ausgelöst: Die US-Regierung und UNO-Generalsekretär Antonio Guterres zeigten sich bestürzt. Rushdie stehe für „wesentliche, universelle Werte“ wie Wahrheit, Mut und Widerstandsfähigkeit, erklärte US-Präsident Joe Biden am Samstag. Der weltbekannte Autor wird künstlich beatmet, über das Motiv des Angreifers herrscht noch Rätselraten. Gegen den Mann wurde Anklage erhoben.</p>
+      <img src="/ORF/Bilder/1459066_opener_528078_rushdie_attacke_entsetzen_r.jpg" alt="bild1" id="img1">
+    </section>
+    <section>
+      <section>
+        <h1 class="title">Inland</h1>
+        <article>
+          <h1>Neuer Obmann für Schülerunion</h1>
+          <p>Die ÖVP-nahe Schülerunion hat einen neuen Bundesobmann. Der 21-jährige Wiener Manuel Kräuter wurde beim 50. ordentlichen Bundestag der Organisation mit 98,26 Prozent zum neuen Bundesobmann gewählt, teilte die Schülerorganisation heute in einer Aussendung mit. An seiner Seite steht die Vorarlbergerin Laura Bayer, die zur Bundesgeschäftsführerin bestellt wurde.</p>
+          <h1>Popper: Politik muss Teststrategie festlegen</h1>
+          <p>Die Entwicklung der CoV-Infektionen ist derzeit nicht prognostizierbar. Dafür sind die Testzahlen zu niedrig. Um für den weiteren Verlauf der Pandemie vorbereitet zu sein, muss die Politik sich jetzt auf eine Teststrategie festlegen, fordert Simulationsforscher Niki Popper.</p>
+        </article>
+      </section>
+      <section>
+        <h1 class="title">Ausland</h1>
+        <article>
+          <h1>Polen plant Einschränkung bei Visa für Russen</h1>
+          <p>Auch Polen erwägt, die Regeln für die Visavergabe für russische Staatsbürger einzuschränken. „Polen arbeitet an der Entwicklung eines Konzepts, das es ermöglicht, keine Visa für Russen zu erteilen“, sagte Vizeaußenminister Piotr Wawrzyk am Sonntag der Nachrichtenagentur PAP. Die Entscheidung darüber werde in den kommenden Wochen fallen.</p>
+          <section id="putin">
+            <table id="putintable">
+              <tr>
+                <td><img src="/ORF/Bilder/29507638-wladimir-putin-2hIG.jpg" alt="putin" id="putin"></td>
+                <td>
+                  <p>"Es gibt keine russischen Soldaten auf ukrainischen Boden"</p>
+                  <p>-Vladimir Putin <a href="https://www.welt.de/politik/ausland/article239183529/Ukraine-und-Russland-tauschen-an-Front-Leichen-von-Soldaten-aus.html" id="welt">Welt.de</a></p>
+                </td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </section>
+    </section>
+  </main>
 
-  <h2>Weiterer Titel</h2>
-  <h3>Untertitel</h3>
-  <p>Text</p>
-  <div class="light-blue-box">
-    <img src="/ORF/Bilder/29507638-wladimir-putin-2hIG.jpg" alt="Putin">
-    <p>Lorem ipsum</p>
-    <p>-welt.de</p>
-  </div>
-
-  <hr>
-
-  <div class="footer">
-    <p>ORF Zentrum</p>
-    <p>Würzburggasse 30</p>
-    <p>1136 Wien</p>
-    <div class="footer-links">
-      <a href="#">Impressum</a> | <a href="#">Datenschutz</a>
-    </div>
-  </div>
+  <footer>
+    <hr>
+    <p class="footer">ORF-Zentrum <br> Würzburggase 30 <br> 1136 Wien</p>
+    <nav>
+      <table>
+        <tr>
+          <td><a href="#Impressum">Impressum</a></td>
+          <td><a href="#Datenschutz">Datenschutz</a></td>
+        </tr>
+      </table>
+    </nav>
+  </footer>
 </body>
 </html>

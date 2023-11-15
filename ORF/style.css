@@ -1,35 +1,90 @@
 body {
-    background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #16416B;
+  color: blue;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+#news-section {
+  border: 5px solid #16416B; 
+  background-color: #16416B; 
+  padding: 15px;
+}
+
+h1, h2, h3 {
+  color: #000000;
+}
+
+p {
+  color: #666;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#img1{
+  width: 100%;
+}
+
+#img2 {
+  max-width: 50%;
+}
+
+#putin img {
+  max-width: 30%;
+}
+
+footer {
+  background-color: #16416B;
+  color: blue;
+  text-align: center;
+  padding: 10px;
+}
+
+footer nav {
+  margin-top: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+/* Responsive Menu Styles */
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
   }
-  
-  .blue-box {
-    border: 2px solid blue;
-    padding: 15px;
-    margin: 10px;
+
+  nav a {
+    margin: 10px 0;
   }
-  
-  .nav-bar {
-    background-color: lightblue;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .footer {
-    background-color: darkblue;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  
-  .light-blue-box {
-    border: 2px solid lightblue;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .footer-links {
-    background-color: dodgerblue;
-    padding: 5px;
-    margin-top: 5px;
-  }
-  
+}
