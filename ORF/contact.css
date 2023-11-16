@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #16416B; 
+    color: #ECF0F1; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #16416B; 
+    padding: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #ECF0F1; 
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #Adresse {
+    border: 5px solid #16416B; 
+    background-color: #16416B; 
+    padding: 15px;
+  }
+  
+  h1, h2, h3 {
+    color: #000000;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #news-section img {
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  form li {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #16416B; 
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #3498DB; 
+    color: #ECF0F1; 
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #2C3E50; 
+    color: #ECF0F1; 
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer nav {
+    margin-top: 10px;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ECF0F1; 
+    margin: 10px 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }
+  

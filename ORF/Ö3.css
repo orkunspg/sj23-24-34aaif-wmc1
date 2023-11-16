@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #16416B;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.charts {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.charts th, .charts td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+    width: 10%;
+}
+
+.odd {
+    background-color: #f9f9f9;
+}
+
+.even {
+    background-color: #e6e6e6;
+}
+
+.new, .up, .down, .same {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.new {
+    background-color: green;
+}
+
+.up {
+    background-color: #66cc66;
+}
+
+.down {
+    background-color: #ff6666;
+}
+
+.same {
+    background-color: #999;
+}
