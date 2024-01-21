@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head lang="de">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Artikel 2</title>
+        <link rel="stylesheet" href="../styles/navi.css" type="text/css"/>
+    </head>
+
+    <body>
+		<nav>
+			<ul id="navul">
+				<li id="logo">
+					<div id="main">
+						<button class="openbtn" onclick="openNav()">☰ Inhaltsverzeichnis</button>  
+					</div>
+				</li>
+				<li><a href="../index.html">Startseite</a></li>
+				<li class="dropbtn">
+					<div style="color:darkblue;" class="dropdown">
+						Dropdown
+					<div class="dropdown-content">
+					  <a href="../artikel1/index.html">Artikel 1</a>
+					  <a style="color:darkblue;" href="#">Artikel 2</a>
+					  <a href="../artikel3/index.html">Artikel 3</a>
+					</div>
+				  </div>
+				</li>
+			</ul>
+			<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a onclick="closeNav()" href="#article1">Sektion 1</a>
+				<a onclick="closeNav()" href="#article2">Sektion 2</a>
+				
+			</div>
+		</nav>
+		<br/>
+		<section id="ersteart1">
+			<article id="article1">
+				<h1>Sektion 1</h1>
+				<p>Curabitur suscipit libero a tortor aliquam tempus. Nam tempor, dolor eu convallis ultricies, dolor nisl semper eros, a eleifend velit justo ac enim. Nulla facilisi. Nam et turpis laoreet, auctor turpis quis, blandit mi. Quisque consequat placerat tristique. Nam sit amet tristique libero, non fermentum nibh. Nunc quis fringilla nisi. In hac habitasse platea dictumst.</p>
+				<p>Nullam nec mi a nisi faucibus efficitur id a justo. Nunc ac dui et nunc maximus molestie. Ut tincidunt commodo odio eu consectetur. Mauris tempor, orci ornare pharetra rhoncus, felis metus volutpat risus, eget elementum purus est a justo. Aliquam volutpat felis id augue scelerisque, et mattis urna varius. Nulla velit tellus, lobortis nec neque non, viverra molestie mauris. Fusce sit amet massa a libero ornare ultrices. Cras hendrerit gravida enim sodales imperdiet. Mauris dolor felis, gravida in pretium eget, vehicula porta magna. Nam rutrum id augue a tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris sit amet posuere enim, eu tincidunt velit. Pellentesque vulputate blandit magna, ac suscipit velit venenatis ac.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae semper dui. Suspendisse sollicitudin quam ac dolor porta, pellentesque tincidunt libero vulputate. Vivamus ac lectus fringilla, porta neque et, laoreet ligula. Curabitur rutrum porta sapien nec rutrum. Donec eleifend elit nec lectus viverra, nec elementum nibh ullamcorper. Integer quis posuere lacus. Pellentesque porttitor mi erat, sed malesuada mauris commodo ultricies. Nulla congue, erat quis euismod ultricies, enim erat rutrum est, quis facilisis diam mi quis dui. In vitae nibh mauris. Morbi eleifend faucibus tincidunt. Cras id malesuada ante. Vivamus ut odio vel neque congue suscipit. Proin lacinia felis nec mi vestibulum bibendum. Praesent tempus dui non enim ullamcorper, quis hendrerit massa malesuada.</p>
+			</article>
+			<article id="article2">
+				<h1>Sektion 2</h1>
+				<p>Curabitur suscipit libero a tortor aliquam tempus. Nam tempor, dolor eu convallis ultricies, dolor nisl semper eros, a eleifend velit justo ac enim. Nulla facilisi. Nam et turpis laoreet, auctor turpis quis, blandit mi. Quisque consequat placerat tristique. Nam sit amet tristique libero, non fermentum nibh. Nunc quis fringilla nisi. In hac habitasse platea dictumst.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae semper dui. Suspendisse sollicitudin quam ac dolor porta, pellentesque tincidunt libero vulputate. Vivamus ac lectus fringilla, porta neque et, laoreet ligula. Curabitur rutrum porta sapien nec rutrum. Donec eleifend elit nec lectus viverra, nec elementum nibh ullamcorper. Integer quis posuere lacus. Pellentesque porttitor mi erat, sed malesuada mauris commodo ultricies. Nulla congue, erat quis euismod ultricies, enim erat rutrum est, quis facilisis diam mi quis dui. In vitae nibh mauris. Morbi eleifend faucibus tincidunt. Cras id malesuada ante. Vivamus ut odio vel neque congue suscipit. Proin lacinia felis nec mi vestibulum bibendum. Praesent tempus dui non enim ullamcorper, quis hendrerit massa malesuada.</p>
+				<p>Nullam nec mi a nisi faucibus efficitur id a justo. Nunc ac dui et nunc maximus molestie. Ut tincidunt commodo odio eu consectetur. Mauris tempor, orci ornare pharetra rhoncus, felis metus volutpat risus, eget elementum purus est a justo. Aliquam volutpat felis id augue scelerisque, et mattis urna varius. Nulla velit tellus, lobortis nec neque non, viverra molestie mauris. Fusce sit amet massa a libero ornare ultrices. Cras hendrerit gravida enim sodales imperdiet. Mauris dolor felis, gravida in pretium eget, vehicula porta magna. Nam rutrum id augue a tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris sit amet posuere enim, eu tincidunt velit. Pellentesque vulputate blandit magna, ac suscipit velit venenatis ac.</p>
+			</article>
+		</section>
+		<script>
+			function openNav() {
+			document.getElementById("mySidebar").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			}
+			
+			function closeNav() {
+			document.getElementById("mySidebar").style.width = "0";
+			document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>
+	</body>
+</html>
