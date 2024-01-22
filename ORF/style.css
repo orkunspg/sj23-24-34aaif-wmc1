@@ -60,6 +60,12 @@ img {
   max-width: 30%;
 }
 
+iframe {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
 footer {
   background-color: #16416B;
   color: blue;
