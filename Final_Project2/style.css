@@ -98,7 +98,7 @@ header {
 }
 
 header h1,
-header h2 {
+header h3 {
     position: relative;
     right: 50px;
 }
@@ -109,14 +109,14 @@ header h1 {
     margin: 0;
 }
 
-header h2 {
+header h3 {
     padding-bottom: 400px;
     margin: 0px;
     font-size: 40px;
     font-weight: lighter;
 }
 
-#starlord {
+#one {
     text-align: center;
     background-color: white;
     margin-top: 0;
@@ -125,18 +125,18 @@ header h2 {
     bottom: 70px;
 }
 
-#starlord section {
+#one section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
 }
 
-#starlord hr {
+#one hr {
     width: 200px;
 }
 
-#starlord img {
+#one img {
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -159,7 +159,7 @@ body article {
 }
 
 #whale img {
-    box-shadow: 10px 10px 5px lightgrey;
+    box-shadow: 10px 10px 5px gray;
 }
 
 #whale h1,
@@ -175,18 +175,18 @@ article section {
     padding-right: 20px;
 }
 
-#haven h1 {
+#lead h1 {
     padding-top: 30px;
 }
 
-#haven p {
+#lead p {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
     line-height: 40px;
 }
 
-#haven video {
+#lead video {
     width: 100%;
     padding-bottom: 30px;
 }
@@ -235,7 +235,7 @@ article section {
 
 footer {
     background-color: black;
-    background-image: url(https://nlt-content-hub.s3.amazonaws.com/content/explorethediscoveryUNESCOglobalgeopark/Header.jpg);
+    background-image: url(https://assets.vogue.com/photos/59a6ee9ac3f99f428736c1a7/master/w_1600,c_limit/01-newfoundland-canada-travel-guide.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -250,7 +250,7 @@ footer section {
 }
 
 footer img {
-    width: 100px;
+    width: 50px;
 }
 
 footer input {
@@ -273,20 +273,5 @@ footer button {
 }
 
 footer p {
-    padding: 50px;
-    width: 75%;
-    margin: auto;
-    font-size: 25px;
+    padding-bottom: 100px;
 }
-
-.socialmedia {
-    padding-top: 100px;
-    padding-right: 180px;
-    display: flex;
-    margin: 0 auto;
-    Height: 80px;
-    Width: 80px;
-    gap: 1rem;
-}
-
-
