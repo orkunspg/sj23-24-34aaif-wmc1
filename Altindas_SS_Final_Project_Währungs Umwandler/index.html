@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <title>Orkuns Währungs Umwandler</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Währungs Umwandler</h1>
+        </header>
+        <section class="converter">
+            <article class="currency-input">
+                <label for="input_currency_select">Von:</label>
+                <select name="currency" id="input_currency_select" class="currency"> 
+                    <option>select</option>
+                </select>
+                <input type="text" id="input_currency" aria-labelledby="input_currency_select">
+            </article>
+            <article class="currency-output">
+                <label for="output_currency_select">Zu:</label>
+                <select name="currency" id="output_currency_select" class="currency">
+                    <option>select</option>
+                </select>
+                <input type="text" id="output_currency" aria-labelledby="output_currency_select" disabled>
+            </article>
+        </section>
+        <button id="convertButton">Umwandeln</button>
+        <button id="swapButton">Tauschen</button>
+        <section class="history">
+            <label for="date">Datum:</label>
+            <input type="date" id="date">
+            <button id="historyButton">Historische Umrechnung</button>
+            <input type="text" id="history_output" disabled>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
